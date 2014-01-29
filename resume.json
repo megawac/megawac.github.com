@@ -24,7 +24,7 @@
         "max contributions": 6,
         "max repos": 6,
 
-        "exclude repos": ["cdnjs", "jsdelivr", "megawac.github.io"]//repos to exclude by repo name
+        "exclude repos": ["cdnjs", "jsdelivr", "megawac.github.io", "megawac.github.com"]//repos to exclude by repo name
     },
 
     //most of these are optional beside some of the obvious
@@ -52,7 +52,7 @@
         "JavaScript/Node.js", "HTML5", "CSS3", "ESRI ArcGIS", "SQL", "Python", "Java", "ASP.NET with VB & C#", "GIT & TFS Source Control"
     ],
     "frameworks": [
-        "Mootools", "jQuery", "dojo", "ArcGIS SDKs", "Python Twisted", "Express.js", "Socket.io", "Grunt", "Twitter Bootstrap"
+        "jQuery", "Mootools", "dojo", "ArcGIS SDKs", "Python Twisted", "Knockout.js", "Backbone", "Twitter Bootstrap", "Grunt"
     ],
     "projects": [
         {
@@ -110,6 +110,6 @@
             "achievements": "Dean's list from 2011-2012"
         }
     ],
-    "lastupdate": "15-01-2013",
+    "lastupdate": "29-01-2013",
     "resume": "http://megawac.github.io"
 }
