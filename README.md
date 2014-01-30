@@ -5,7 +5,7 @@ A JSON resume generator and Github summarizer inspired by [jsonme](https://githu
 using a given `resume.json` file and some Github API calls. The templates are compiled through knockout.js, ajax done through jQuery and CSS generated through LESS.
 
 ##Usage
-This is just a collection of js, css and html files + `resume.json` and Github API calls. You can easily configure this app with [Github pages](http://pages.github.com/) so `<github-username>`.github.io will be a customized version of this resume app (see mine at [megawac.github.io](http://megawac.github.io)).
+This is just a collection of js, css and html files + `resume.json` and Github API calls. You can easily configure this app with [Github pages](http://pages.github.com/) so `<github-username>`.github.io will be a customized version of this resume app (see mine at [megawac.github.io](//megawac.github.io)).
    
 The simplest way to create some Github pages for yourself is to follow the steps belows:
 
