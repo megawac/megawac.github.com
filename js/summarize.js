@@ -1,6 +1,6 @@
 (function($) {
     'use strict';
-
+    /* global resume */
     //init these when ready
     var resumeModel;
     var githubModel;
@@ -49,7 +49,7 @@
 
     var checked  = {};
 
-    $.ajax({url:'resume.json', dataType: 'text'})
+    $.ajax({url: resume && resume.json || 'resume.json', dataType: 'text'})
     .then(function(resume) {
         resume = $.parseJSON(JSON.minify(resume));
         gitSettings = resume.github || {};
