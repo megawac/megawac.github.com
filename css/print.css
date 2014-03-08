@@ -112,3 +112,14 @@ blockquote,
 #frameworks ul {
   font-size: 1em;
 }
+.resume .res-info {
+  font-size: 1em;
+}
+.reactive-list > li {
+  width: 33%;
+}
+@media (min-width: 8in) {
+  .reactive-list li {
+    width: 49%;
+  }
+}
