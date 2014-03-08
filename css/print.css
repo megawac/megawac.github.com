@@ -118,7 +118,7 @@ blockquote,
 .reactive-list > li {
   width: 33%;
 }
-@media (max-width: 8in) {
+@media (max-width: 7in) {
   .reactive-list li {
     width: 49%;
   }
