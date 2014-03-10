@@ -68,7 +68,7 @@
         {
             "name": "Python WebIRC",
             "technologies": "Twisted, Zope Interface",
-            "description": "Simplified the Iris/QwebIRC python server and implemented the Ident dameon protocol for connecting to some IRC servers."
+            "description": "Created a localization strategy and implemented the Ident dameon protocol for connecting to secure servers."
         },
         {
             "name": "Epitome MVC",
