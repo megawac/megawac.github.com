@@ -39,6 +39,8 @@
         return $.ajax({
             url: url,
             data: data,
+            crossDomain: true,
+            dataType: window.XDomainRequest ? 'jsonp' : 'json', //help ie out :o
             accept: {//to stabalize api
                 json: 'application/vnd.github.v3+json',
                 '*': 'application/vnd.github.v3.raw+json'
