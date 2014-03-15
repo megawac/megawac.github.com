@@ -24,7 +24,7 @@
         "max contributions": 6,
         "max repos": 6,
 
-        "exclude repos": ["cdnjs", "jsdelivr", "megawac.github.io", "megawac.github.com"]
+        "exclude repos": ["cdnjs", "jsdelivr", "megawac.github.io", "megawac.github.com", "tfstreams"]
     },
 
     "name": "Graeme J. Yeates",
