@@ -171,7 +171,7 @@
         var weight = function(repo) {
             var _repo = ko.isObservable(repo) ? repo() : repo; //unwrap
             return _.reduce(weights, function(weight, val, prop) {
-                if(val) weight += sortMap[prop](_repo, val);
+                if(val) weight += sortMap[prop](_repo, val) || 0; //lazily handle NaN
                 return weight;
             }, 0);
         };
