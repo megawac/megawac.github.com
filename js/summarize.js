@@ -80,10 +80,17 @@
     })
     .then(function(userInfo, repoInfo, organizations, pullRequests) {
         userInfo = userInfo[0];
-        organizations = organizations[0];
         var repos = _.filter(repoInfo[0], function(repo) {
             return !_.contains(gitSettings['exclude repos'], repo.name) && (!repo.fork || repo.stargazers_count > 0 || repo.subscribers_count > 0);
         });
+        //update resume with user info
+        // resumeModel.updateInfo(userInfo);
+
+        githubModel = new GithubModel({
+            user: userInfo,
+            repos: repos
+        });
+
         _.each(repos, function(repo) {
             $.when(
                 $gitGet(repo.url),
@@ -97,6 +104,9 @@
             });//may 404 for repos with no commits
         });
 
+        _.each(organizations[0], function(org) {
+            $gitGet(org.url).then(githubModel.addOrganization);
+        });
 
         var pulls = _.filter(pullRequests[0].items, function(pr) {
             var match = pr.url.match(/repos\/([\w.-]+)\/([\w.-]+)\/issues/);
@@ -135,15 +145,6 @@
                     });
                 } //else not merged
             }); //note may get 410 responses for deleted repos
-        });
-
-        //update resume with user info
-        // resumeModel.updateInfo(userInfo);
-
-        githubModel = new GithubModel({
-            user: userInfo,
-            repos: repos,
-            organizations: organizations
         });
     });
 
@@ -234,7 +235,7 @@
             return pulls.slice(0, gitSettings['max contributions']);
         }, pulls);
 
-        window.orgs = model.organizations = ko.computed(function() {
+        model.organizations = ko.computed(function() {
             return orgs.slice(0, gitSettings['max organizations']);
         }, orgs);
 
@@ -247,6 +248,10 @@
         model.addPull = function(pr) {
             pulls.push(processRepo(pr));
             sortRepos(pulls, gitSettings['sort pull weights']);
+        };
+
+        model.addOrganization = function(org) {
+            orgs.push(org);
         };
 
         sortRepos(repos, gitSettings['sort repo weights']);

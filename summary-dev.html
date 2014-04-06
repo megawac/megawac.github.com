@@ -171,7 +171,7 @@
         <div class="organizations">
             <h3>Organizations</h3>
             <!-- ko  -->
-            <ul data-bind="foreach: organizations as: 'org'" class="list-inline">
+            <ul data-bind="foreach: { data: organizations, as: 'org' }" class="list-inline">
                 <a data-bind="attr: {href: org.html_url}, text: org.name"></a>
             </ul>
             <!-- /ko -->
@@ -225,12 +225,12 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="//cdn.jsdelivr.net/knockout/3.0.0/knockout.js"></script>
     <script src="//cdn.jsdelivr.net/lodash/2.4.1/lodash.min.js"></script>
+    <script src="js/summarize.js"></script>
     <script>
         var resume = {
             "resume": "resume.json"
-        };
+        }
     </script>
-    <script src="js/summarize.js"></script>
     <!-- build:remove --><script src="//localhost:35729/livereload.js"></script><!-- /build -->
 </body>
 </html>
