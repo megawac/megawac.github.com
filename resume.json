@@ -5,7 +5,7 @@
         "include repos": true,
         "include pulls": true,
         "include unmerged pulls": false,
-        
+
         //Sorting weights. The weights are multiplied by the corresponding repo value in order to sort your repos
         "sort repo weights": {
             "stars": 1,
@@ -33,7 +33,7 @@
     "contact": "gjyeates@uwaterloo.ca",
     "portfolio": "www.github.com/megawac",
     "objective": "Geographic information systems (GIS) internship that allows me to integrate my knowledge of web development and databases with my skills in GIS.",
-    "aboutme": "I study GIS and computer science at the University of Waterloo, am an enthusiast programmer, and a contributor to several open source projects (see my github profile). My work strategy involves seperating jobs into into tasks, then assigning their priorities and deadlines. I'm always searching for new automation techniques and ways optimize my workflow.",
+    "aboutme": "I study GIS and computer science at the University of Waterloo, am an enthusiast programmer, and a contributor to several open source projects (see my github profile). My work strategy involves seperating jobs into tasks, then assigning their priorities and deadlines. I'm always searching for new automation techniques and ways optimize my workflow.",
     "social": [
         {
             "link": "https://github.com/megawac",
