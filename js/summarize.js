@@ -131,10 +131,11 @@
             }); //note may get 410 responses for deleted repos
         });
 
-        for (var i = 1; i < userInfo.public_repos / 100; i++) {
+        var pages = Math.ceil(userInfo.public_repos / 100);
+        for (; pages > 0; pages--) {
             $gitGet('users/' + gitSettings.user + '/repos', {
                 per_page: 100,
-                page: i
+                page: pages
             })
             .then(function(repos) {
                 _(repos)
