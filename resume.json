@@ -32,8 +32,8 @@
     "phone": "(647) 215-7372",
     "contact": "gjyeates@uwaterloo.ca",
     "portfolio": "www.github.com/megawac",
-    "objective": "Geographic information systems (GIS) internship that allows me to integrate my knowledge of web development and databases with my skills in GIS.",
-    "aboutme": "I study GIS and computer science at the University of Waterloo, am an enthusiast programmer, and a contributor to several open source projects (see my github profile). My work strategy involves seperating jobs into tasks, then assigning their priorities and deadlines. I'm always searching for new automation techniques and ways optimize my workflow.",
+    "objective": "Find a full-time remote job while I complete my degree (part-time) at University of Waterloo.",
+    "aboutme": "I study GIS (geomatics) and computer science at the University of Waterloo and a contributor to various open source projects. I love solving automation, real-time communication, and other non-trivial problems.",
     "social": [
         {
             "link": "https://github.com/megawac",
@@ -49,10 +49,10 @@
         }
     ],
     "skills": [
-        "JavaScript/Node.js", "HTML5", "CSS3/LESS", "ESRI ArcGIS", "SQL", "Python", "Java", "ASP.NET with VB & C#", "GIT & TFS Source Control"
+        "JS(Next)/Node.js", "HTML5", "CSS3/LESS", "ESRI ArcGIS", "SQL", "Python", "Ruby", "ASP.NET with VB & C#", "GIT"
     ],
     "frameworks": [
-        "jQuery", "Mootools", "dojo", "ArcGIS SDKs", "Python Twisted", "Knockout.js", "Backbone", "Twitter Bootstrap", "Grunt"
+        "ROS", "Leaflet", "ArcGIS SDKs", "Knockout.js", "Backbone & Marionette", "Bootstrap", "jQuery", "Mootools", "Babel"
     ],
     "projects": [
         {
@@ -69,14 +69,19 @@
             "name": "Python WebIRC",
             "technologies": "Twisted, Zope Interface",
             "description": "Created a localization strategy and implemented the Ident dameon protocol for connecting to secure servers."
-        },
-        {
-            "name": "Epitome MVC",
-            "technologies": "Mootools, BusterJS",
-            "description": "Contributor to the framework. Improved the functionality of model properties and provided two solutions to passing events with an array in the arguments"
         }
     ],
     "experience": [
+        {
+            "company": "Clearpath Robotics",
+            "link": "http://www.clearpathrobotics.com/",
+            "title": "Applications Developer",
+            "startDate": "May 2014",
+            "endDate": "December 2014",
+            "technologies": "ROS, Leaflet, ArcGIS, Sails, python, Tornado, Backbone, React, Paper.js, Three.js, MySQL, CouchDB&PouchDB",
+            "responsibilities": "TODO.",
+            "achievements": "TODO."
+        },
         {
             "company": "CESI Environment Canada",
             "link": "http://maps-cartes.ec.gc.ca/indicators-indicateurs",
