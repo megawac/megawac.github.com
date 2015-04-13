@@ -8,9 +8,9 @@
 
         //Sorting weights. The weights are multiplied by the corresponding repo value in order to sort your repos
         "sort repo weights": {
-            "stars": 1,
+            "stars": 5,
             "watchers": 1,
-            "commits": 5,
+            "commits": 1,
             "activity": 0
         },
         "sort pull weights": {
