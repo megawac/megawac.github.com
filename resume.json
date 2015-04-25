@@ -78,9 +78,9 @@
             "title": "Applications Developer",
             "startDate": "May 2014",
             "endDate": "December 2014",
-            "technologies": "ROS, Leaflet, ArcGIS, Sails, python, Tornado, Backbone, React, Paper.js, Three.js, MySQL, CouchDB&PouchDB",
-            "responsibilities": "TODO.",
-            "achievements": "TODO."
+            "technologies": "ROS, Leaflet, ArcGIS, Sails, python, Tornado, Backbone, React, Paper.js, Three.js, MySQL, Linux, AutoHotkey",
+            "responsibilities": "Interface with various sensors (sonars, GPRs, etc.). Develop robot motion control interfaces for mobile devices. Design and develop bathymetric survey software. Apply sensor fusion algorithms.",
+            "achievements": "Designed several innvovative abstractions to sensor fusion algorithms. Added ROS support for Node.js. Improved numerous interfaces for robot controls."
         },
         {
             "company": "CESI Environment Canada",
