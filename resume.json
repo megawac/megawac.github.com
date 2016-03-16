@@ -15,8 +15,8 @@
         },
         "sort pull weights": {
             "stars": 1,
-            "watchers": 1,
-            "commits": 10,
+            "watchers": 0,
+            "commits": 100,
             "activity": 0
         },
 
@@ -32,7 +32,6 @@
     "phone": "(647) 215-7372",
     "contact": "gjyeates@uwaterloo.ca",
     "portfolio": "www.github.com/megawac",
-    "objective": "Find a full-time remote job while I complete my degree (part-time) at University of Waterloo.",
     "aboutme": "I study GIS (geomatics) and computer science at the University of Waterloo and a contributor to various open source projects. I love solving automation, real-time communication, and other non-trivial problems.",
     "social": [
         {
@@ -73,6 +72,16 @@
     ],
     "experience": [
         {
+            "company": "Majik Systems",
+            "link": "http://www.majik.io/",
+            "title": "Full Stack Developer",
+            "startDate": "November 2015",
+            "endDate": "present",
+            "technologies": "Backbone, Marionette, MongoDB, TODO",
+            "responsibilities": "TODO",
+            "achievements": "TODO"
+        },
+        {
             "company": "Clearpath Robotics",
             "link": "http://www.clearpathrobotics.com/",
             "title": "Applications Developer",
@@ -105,11 +114,11 @@
         {
             "institute": "University of Waterloo",
             "startDate": "2011",
-            "endDate": "present",
+            "endDate": "2016",
             "program": "Geomatics with Computer Science minor",
             "achievements": "Dean's list from 2011-2012"
         }
     ],
-    "lastupdate": "05-03-2013",
+    "lastupdate": "15-03-2016",
     "resume": "http://megawac.github.io"
 }

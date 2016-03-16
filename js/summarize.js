@@ -21,7 +21,7 @@
      * Resource fetching and API calls
      *********************************/
     var GITHUB_API = 'https://api.github.com/';
-    var API_TOKEN = 'access_token=4fefed9402349992bdcfe93978f2647fec350ebc'; //Application api token
+    var API_TOKEN = 'access_token=8d692a8cd23237d8966f0e310e206de42e2f43a5'; //Application api token
     var $gitGet = function(url, data) {
         url = urlify(url, GITHUB_API);
 
