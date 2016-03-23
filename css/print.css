@@ -112,3 +112,7 @@ blockquote,
 #frameworks ul {
   font-size: 1em;
 }
+
+.resume h2 {
+  margin-top: -5px;
+}

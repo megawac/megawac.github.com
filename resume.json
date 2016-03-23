@@ -28,11 +28,11 @@
     },
 
     "name": "Graeme J. Yeates",
-    "title": "Web Developer/GIS Specialist",
+    "title": "Full Stack Developer/GIS Specialist",
     "phone": "(647) 215-7372",
     "contact": "gjyeates@uwaterloo.ca",
     "portfolio": "www.github.com/megawac",
-    "aboutme": "I study GIS (geomatics) and computer science at the University of Waterloo and a contributor to various open source projects. I love solving automation, real-time communication, and other non-trivial problems.",
+    "aboutme": "I study GIS (geomatics) and computer science at the University of Waterloo and am a contributor to various open source projects. I love solving spatial, real-time communication, and synchronization problems.",
     "social": [
         {
             "link": "https://github.com/megawac",
@@ -48,26 +48,26 @@
         }
     ],
     "skills": [
-        "JS(Next)/Node.js", "HTML5", "CSS3/LESS", "ESRI ArcGIS", "SQL", "Python", "Ruby", "ASP.NET with VB & C#", "GIT"
+        "ROS", "ESRI ArcGIS", "SQL", "JS/Node.js", "HTML5", "CSS3/LESS", "Python", "Ruby"
     ],
     "frameworks": [
-        "ROS", "Leaflet", "ArcGIS SDKs", "Knockout.js", "Backbone & Marionette", "Bootstrap", "jQuery", "Mootools", "Babel"
+        "Leaflet", "ArcGIS SDKs", "Knockout.js", "Backbone & Marionette", "Bootstrap", "Babel"
     ],
     "projects": [
         {
             "name": "MutationObserver.js",
             "technologies": "QUnit, Grunt, Travis CI, PhantomJS, Sauce Labs",
-            "description": "Created a (reasonably) compliant and well optimized shim of the HTML5 MutationObserver using a novel tree reconciliation algorithm. Created 50+ QUnit tests for the polyfill."
+            "description": "Created a (reasonably) compliant and well optimized shim of the HTML5 MutationObserver using a novel tree reconciliation algorithm with comprehensive unit tests."
+        },
+        {
+            "name": "jsDelivr",
+            "technologies": [],
+            "description": "jsDelivr is an open source CDN. I've developed a CI bot to validate and automatically merge pull requests with new assets and to synchronize tracked libraries when new versions are published."
         },
         {
             "name": "QwebIRC",
             "technologies": "Mootools, Twitter Bootstrap, Epitome MVC, Handlebars, Grunt, socket.io, underscore, CSS3, HTML5",
-            "description": "QwebIRC is a free, open source AJAX instant relay chat (IRC) client designed to be simple, feature-rich, and intuitive. I've improved the extensibility and functionality of the original QwebIRC project by abstracting the browser hacks to frameworks and modules, rewriting the entire user interface (UI) in templated Views, decoupling of the IRC client from the UI and making the code DRY by extending the utility module. The changes have removed unnessary relationships and made adding features less trivial."
-        },
-        {
-            "name": "Python WebIRC",
-            "technologies": "Twisted, Zope Interface",
-            "description": "Created a localization strategy and implemented the Ident dameon protocol for connecting to secure servers."
+            "description": "QwebIRC is a free, open source AJAX instant relay chat (IRC) client designed to be simple, feature-rich, and intuitive. I've improved the extensibility and functionality of the original QwebIRC project by creating several frameworks and modules, rewriting the entire UI in templated Views, implementing i18n, decoupling of the IRC client from the UI and making the code DRY by extending the utility module. The changes have removed unnessary relationships and made adding features simple."
         }
     ],
     "experience": [
@@ -77,9 +77,8 @@
             "title": "Full Stack Developer",
             "startDate": "November 2015",
             "endDate": "present",
-            "technologies": "Backbone, Marionette, MongoDB, TODO",
-            "responsibilities": "TODO",
-            "achievements": "TODO"
+            "technologies": "Node-RED, Marionette, Mocha, MongoDB, underscore-query",
+            "responsibilities": "Develop internal framework improvements: implement centralized data retention layer for offline store and request optimization, configure frontend and server unit and integration tests, and timeline-based performance debugging."
         },
         {
             "company": "Clearpath Robotics",
@@ -98,16 +97,16 @@
             "startDate": "January 2013",
             "endDate": "May 2013",
             "technologies": "ASP.net, VB, SQL, ArcGIS SDKs, ArcGIS Online, jQuery, dojo, CSS3, HTML5",
-            "responsibilities": "Created various AJAX service end points and developed administration pages in ASP.NET. Refined the processes of merging contents of a client's file geodatabases into the CESI Microsoft SQL server database. Refactored the air toxics and emissions indicator 'data entities' and added new layers data validation.",
-            "achievements": "Participated in a group in a working group responsible for creating a standard web mapping platform (RAMP) for various CESI projects. Mainly worked on implementing localization and transfering state data. Removed serious security holes in the public web services."
+            "responsibilities": "Created various AJAX services and developed administration pages. Refined the processes of merging client's file geodatabases into the server database. Refactored the air toxics and emissions indicator 'data entities' and added new layers of data validation.",
+            "achievements": "Participated in a group in a working group to create a web mapping platform (RAMP) for CESI projects. Focused on implementing localization and transfering state data. Identified and addressed serious security holes in the public web services."
         }, {
             "company": "Casgrain & Company Limited",
             "title": "IT Intern",
             "startDate": "May 2012",
             "endDate": "August 2012",
             "technologies": "Java, SQL",
-            "responsibilities": "Built custom, data driven financial applications using Java for coworkers. These applications had to keep up to date with multiple, periodically updated SQL databases on different servers. Respond to technical questions and provide solutions to problems.",
-            "achievements": "Commensed merge of a relatively large Microsoft Access 2000 database into a database in the main Microsoft SQL 2005 server. Created and maintained several SQL databases."
+            "responsibilities": "Built real time financial applications in Java interfacing with APIs of multiple external and internal servers.",
+            "achievements": "Performed relatively large database merge of a Microsoft Access 2000 database into a Microsoft SQL 2005 server instance."
         }
     ],
     "education": [
@@ -115,8 +114,7 @@
             "institute": "University of Waterloo",
             "startDate": "2011",
             "endDate": "2016",
-            "program": "Geomatics with Computer Science minor",
-            "achievements": "Dean's list from 2011-2012"
+            "program": "Geomatics with Computer Science minor"
         }
     ],
     "lastupdate": "15-03-2016",
