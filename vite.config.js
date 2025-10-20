@@ -13,7 +13,7 @@ export default defineConfig({
     outDir: 'dist',
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'summary-dev.html'),
+        main: resolve(__dirname, 'index.html'),
       },
     },
   },
@@ -44,7 +44,7 @@ export default defineConfig({
   
   server: {
     port: 9000,
-    open: '/summary-dev.html',
+    open: '/index.html',
     host: 'localhost',
   },
 });

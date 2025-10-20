@@ -92,7 +92,7 @@
             "title": "Senior Software Engineer",
             "startDate": "May 2016",
             "endDate": "October 2025",
-            "technologies": "React, Openlayers, Mapbox, Antd, JS/TS, Python, C++, Kubernetes, Grafafa",
+            "technologies": "React, Openlayers, Mapbox, Antd, JS/TS, Python, C++, Kubernetes, Grafana",
             "responsibilities": "I designed and implemented mapping solutions to visualize real time telemetry for large fleets. Created advanced vector interactions to configure how vehicles navigate facilities. Implemented and maintained data synchronization, history management solutions, and various other components of OTTO's fleet management system. I worked closely with product managers and designers on scoping our releases and budgeting customer requests.",
             "achievements": "I mentored several developers and had a significant impact on the team's technical directions. I performed performance audits to allow our fleet management system to scale to handle data from hundreds of vehicles in real time."
         },
