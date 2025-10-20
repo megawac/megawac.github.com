@@ -21,7 +21,7 @@
      * Resource fetching and API calls
      *********************************/
     var GITHUB_API = 'https://api.github.com/';
-    var API_TOKEN = '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'; //Application api token
+    var API_TOKEN = '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'; //Application api token
     var $gitGet = function(url, data) {
         url = urlify(url, GITHUB_API);
 
@@ -37,11 +37,8 @@
             crossDomain: true,
             dataType: window.XDomainRequest ? 'jsonp' : 'json', //help ie out :o
             headers: {
-                'Authorization': 'token ' + API_TOKEN
-            },
-            accept: {//to stabalize api
-                json: 'application/vnd.github.v3+json',
-                '*': 'application/vnd.github.v3.raw+json'
+                'Authorization': 'token ' + API_TOKEN,
+                'Accept': 'application/vnd.github.v3+json'
             },
             global: false
         });
