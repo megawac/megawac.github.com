@@ -1,94 +1,115 @@
 {
-    "github": {
-        "user": "megawac",
+    "github": {//settings used to generate your github resume
+        "user": "megawac", //if falsy we'll guess
 
         "include repos": true,
-        "include pulls": true,
+        "include pulls": true, //attempt to find your pull requests (requires a lot of requests with current github api)
         "include unmerged pulls": false,
-
+        
         //Sorting weights. The weights are multiplied by the corresponding repo value in order to sort your repos
         "sort repo weights": {
-            "stars": 5,
+            "stars": 1,
             "watchers": 1,
-            "commits": 1,
-            "activity": 0
+            "commits": 0,
+            "activity": 0 //days since last commit
         },
         "sort pull weights": {
             "stars": 1,
-            "watchers": 0,
-            "commits": 100,
+            "watchers": 1,
+            "commits": 10,
             "activity": 0
-        },
+        }, //How to sort your pull requests (latest 100). Valid options are ["stars", "commits", "activity"]
 
         "max organizations": 10,
         "max contributions": 6,
         "max repos": 6,
 
-        "exclude repos": ["cdnjs", "jsdelivr", "megawac.github.io", "megawac.github.com", "tfstreams"]
+        "exclude repos": ["cdnjs", "jsdelivr", "megawac.github.io"]//repos to exclude by repo name
     },
 
+    //most of these are optional beside some of the obvious
     "name": "Graeme J. Yeates",
-    "title": "Full Stack Developer/GIS Specialist",
-    "phone": "(647) 215-7372",
-    "contact": "gjyeates@uwaterloo.ca",
+    "title": "Geospatial Engineer / Robotics Visualization Specialist",
+    "phone": "(418) 587-3258",
+    "contact": "yeatesgreame@gmail.com",
     "portfolio": "www.github.com/megawac",
-    "aboutme": "I study GIS (geomatics) and computer science at the University of Waterloo and am a contributor to various open source projects. I love solving spatial, real-time communication, and synchronization problems.",
+    "objective": "Geospatial engineer with 10 years' experience building real-time visualization and telemetry systems for warehouse robotics. Experienced in architecting fleet↔server synchronization, designing robotic controller interfaces, and creating operational dashboards that improve visibility and decision-making. Skilled in spatial data modeling, streaming telemetry, and performance optimization for large-scale automation deployments.",
     "social": [
         {
             "link": "https://github.com/megawac",
             "name": "github.com/megawac"
         },
         {
-            "link": "mail://gjyeates@uwaterloo.ca",
-            "name": "gjyeates@uwaterloo.ca"
+            "link": "mail://yeatesgreame@gmail.com",
+            "name": "yeatesgreame@gmail.com"
         },
         {
-            "link": "tel://6472157372",
-            "name": "(647) 215-7372"
+            "link": "tel://4185873258",
+            "name": "(418) 587-3258"
         }
     ],
     "skills": [
-        "ROS", "ESRI ArcGIS", "SQL", "JS/Node.js", "HTML5", "CSS3/LESS", "Python", "Ruby"
+        "Geospatial engineering",
+        "Real-time telemetry & fleet synchronization",
+        "Robotics interfaces (APIs, ROS, MQTT)",
+        "JS/TS",
+        "Python",
+        "C++",
+        "AI/ML workflows",
+        "R",
+        "Testing & CI workflows",
+        "Kubernetes"
     ],
     "frameworks": [
-        "Leaflet", "ArcGIS SDKs", "Knockout.js", "Backbone & Marionette", "Bootstrap", "Babel"
+        "React",
+        "OpenLayers",
+        "Mapbox",
+        "Antd"
     ],
     "projects": [
         {
             "name": "MutationObserver.js",
-            "technologies": "QUnit, Grunt, Travis CI, PhantomJS, Sauce Labs",
-            "description": "Created a (reasonably) compliant and well optimized shim of the HTML5 MutationObserver using a novel tree reconciliation algorithm with comprehensive unit tests."
+            "technologies": "QUnit, Sauce Labs",
+            "description": "This is an early work of mine for a Marionette project which I am still very proud of. Created a (reasonably) compliant and well optimized shim of the HTML5 MutationObserver using a novel tree reconciliation algorithm. Followed TDD with an extensive suite of tests across a large suite of browsers."
         },
-        {
-            "name": "jsDelivr",
-            "technologies": [],
-            "description": "jsDelivr is an open source CDN. I've developed a CI bot to validate and automatically merge pull requests with new assets and to synchronize tracked libraries when new versions are published."
-        },
-        {
+         {
             "name": "QwebIRC",
-            "technologies": "Mootools, Twitter Bootstrap, Epitome MVC, Handlebars, Grunt, socket.io, underscore, CSS3, HTML5",
-            "description": "QwebIRC is a free, open source AJAX instant relay chat (IRC) client designed to be simple, feature-rich, and intuitive. I've improved the extensibility and functionality of the original QwebIRC project by creating several frameworks and modules, rewriting the entire UI in templated Views, implementing i18n, decoupling of the IRC client from the UI and making the code DRY by extending the utility module. The changes have removed unnessary relationships and made adding features simple."
-        }
+            "technologies": "socket.io, Express, underscore, Mootools",
+            "description": "This was an IRC client I developed in University for my friends. I completely reimplemented the front end with many enhancements, had a new backend in node following RFC2813, and adjusted all connections to go through the new backend."
+        },
+         {
+            "name": "snowve",
+            "technologies": ["C++", "lua", "grafana"],
+            "description": "A highly competitive mod I maintain for Civilization 5. I've implemented many new features, including an analytics engine."
+         }
     ],
     "experience": [
         {
-            "company": "Majik Systems",
-            "link": "http://www.majik.io/",
-            "title": "Full Stack Developer",
-            "startDate": "November 2015",
-            "endDate": "present",
-            "technologies": "Node-RED, Marionette, Mocha, MongoDB, underscore-query",
-            "responsibilities": "Develop internal framework improvements: implement centralized data retention layer for offline store and request optimization, configure frontend and server unit and integration tests, and timeline-based performance debugging."
+            "company": "Clearpath/OTTO Motors/Rockwell Automation",
+            "title": "Senior Software Engineer",
+            "startDate": "May 2016",
+            "endDate": "October 2025",
+            "technologies": "React, Openlayers, Mapbox, Antd, JS/TS, Python, C++, Kubernetes",
+            "responsibilities": "I designed and implemented mapping solutions to visualize real time telemetry for large fleets. Created advanced vector interactions to configure how vehicles navigate facilities. Implemented and maintained data synchronization, history management solutions, and various other components of OTTO's fleet management system. I worked closely with product managers and designers on scoping our releases and budgeting customer requests.",
+            "achievements": "I mentored several developers and had a significant impact on the team's technical directions. I performed performance audits to allow our fleet management system to scale to handle data from hundreds of vehicles in real time."
         },
         {
-            "company": "Clearpath Robotics",
-            "link": "http://www.clearpathrobotics.com/",
-            "title": "Applications Developer",
+            "company": "Majik Systems",
+            "title": "Software Engineer",
+            "startDate": "October 2015",
+            "endDate": "May 2016",
+            "technologies": "Marionette, socket.io, MongoDB",
+            "responsibilities": "I created synchronization services to ensure Backbone and Marionette models stayed in sync with a socket.io server.",
+            "achievements": "I ensured our service could be provided on at least 100 concurrent plc connections feeding vast analytics data to the front end."
+        },
+        {
+            "company": "Echostream (future by Clearpath)",
+            "title": "Applications Developer/Surveyor",
             "startDate": "May 2014",
             "endDate": "December 2014",
-            "technologies": "ROS, Leaflet, ArcGIS, Sails, python, Tornado, Backbone, React, Paper.js, Three.js, MySQL, Linux, AutoHotkey",
-            "responsibilities": "Interface with various sensors (sonars, GPRs, etc.). Develop robot motion control interfaces for mobile devices. Design and develop bathymetric survey software. Apply sensor fusion algorithms.",
-            "achievements": "Designed several innvovative abstractions to sensor fusion algorithms. Added ROS support for Node.js. Improved numerous interfaces for robot controls."
+            "technologies": "ArcGIS, JS, Python, ROS, Leaflet, SQL, HyPack",
+            "responsibilities": "Conducted bathymetric surveys using unmanned surface vehicles (USV). I processed survey data from client surveyors using our USVs for conducting bathymetric surveys.",
+            "achievements": "I implemented the algorithms to process bathymetric survey data into triangulated irregular networks. Documented the key criteria of what an ideal hydrographic software should offer surveyors using USVs. I created a remote control application for controlling any OTTO vehicle from a web app."
         },
         {
             "company": "CESI Environment Canada",
@@ -97,16 +118,16 @@
             "startDate": "January 2013",
             "endDate": "May 2013",
             "technologies": "ASP.net, VB, SQL, ArcGIS SDKs, ArcGIS Online, jQuery, dojo, CSS3, HTML5",
-            "responsibilities": "Created various AJAX services and developed administration pages. Refined the processes of merging client's file geodatabases into the server database. Refactored the air toxics and emissions indicator 'data entities' and added new layers of data validation.",
-            "achievements": "Participated in a group in a working group to create a web mapping platform (RAMP) for CESI projects. Focused on implementing localization and transfering state data. Identified and addressed serious security holes in the public web services."
+            "responsibilities": "Created various AJAX service end points and developed administration pages in ASP.NET. Refined the processes of merging contents of a client's file geodatabases into the CESI Microsoft SQL server database. Refactored the air toxics and emissions indicator 'data entities' and added new layers data validation.",
+            "achievements": "Participated in a group in a working group responsible for creating a standard web mapping platform (RAMP) for various CESI projects. Mainly worked on implementing localization and transfering state data. Removed serious security holes in the public web services."
         }, {
             "company": "Casgrain & Company Limited",
             "title": "IT Intern",
             "startDate": "May 2012",
             "endDate": "August 2012",
             "technologies": "Java, SQL",
-            "responsibilities": "Built real time financial applications in Java interfacing with APIs of multiple external and internal servers.",
-            "achievements": "Performed relatively large database merge of a Microsoft Access 2000 database into a Microsoft SQL 2005 server instance."
+            "responsibilities": "Built custom, data driven financial applications using Java for coworkers. These applications had to keep up to date with multiple, periodically updated SQL databases on foreign servers. Respond to technical questions and provide solutions to problems.",
+            "achievements": "Commensed merge of a large Microsoft Access 2000 database into a Microsoft SQL 2005 server. Created and maintained several SQL databases."
         }
     ],
     "education": [
@@ -114,9 +135,10 @@
             "institute": "University of Waterloo",
             "startDate": "2011",
             "endDate": "2016",
-            "program": "Geomatics with Computer Science minor"
+            "program": "Geomatics with Computer Science minor",
+            "achievements": "Dean's list from 2011-2014"
         }
     ],
-    "lastupdate": "15-03-2016",
+    "lastupdate": "2025-10-10",
     "resume": "http://megawac.github.io"
 }
