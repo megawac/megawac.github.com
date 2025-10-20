@@ -90,8 +90,10 @@
                             <dd data-bind="text: job.company" class="sect-title"></dd>
                             <dt>Title:</dt>
                             <dd data-bind="text: job.title"></dd>
+                            <!-- ko if: job.startDate -->
                             <dt>Tenure:</dt>
                             <dd><span data-bind="text: job.startDate"></span> &ndash; <span data-bind="text: job.endDate"></span></dd>
+                            <!-- /ko -->                            
                             <!-- ko if: job.link -->
                             <dt>Website:</dt>
                             <dd><a data-bind="attr: { href: link }, text: link"></a></dd>

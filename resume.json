@@ -49,22 +49,25 @@
         }
     ],
     "skills": [
-        "Geospatial engineering",
-        "Real-time telemetry & fleet synchronization",
-        "Robotics interfaces (APIs, ROS, MQTT)",
         "JS/TS",
+        "Geospatial engineering",
+        "Managing telemetry",
+        "Robot Operating System (ROS)",
         "Python",
         "C++",
         "AI/ML workflows",
         "R",
         "Testing & CI workflows",
+        "SQL&NoSQL databases",
         "Kubernetes"
     ],
     "frameworks": [
         "React",
         "OpenLayers",
         "Mapbox",
-        "Antd"
+        "Antd",
+        "Node",
+        "socket.io"
     ],
     "projects": [
         {
