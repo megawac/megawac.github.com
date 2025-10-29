@@ -46,5 +46,9 @@ export default defineConfig({
     port: 9000,
     open: '/index.html',
     host: 'localhost',
+    watch: {
+      // Watch for changes to JSON files
+      include: ['**/*.json'],
+    },
   },
 });

@@ -67,7 +67,10 @@
         "Mapbox",
         "Antd",
         "Node",
-        "socket.io"
+        "socket.io",
+        "jest",
+        "Storybook",
+        "Django"
     ],
     "projects": [
         {
@@ -82,17 +85,17 @@
         },
          {
             "name": "snowve",
-            "technologies": ["C++", "lua", "grafana"],
+            "technologies": "C++, lua, grafana",
             "description": "A competitive mod I maintain for Civilization 5. I've implemented many new features, including an analytics engine with grafana dashboards."
          }
     ],
     "experience": [
         {
-            "company": "Clearpath/OTTO Motors/Rockwell Automation",
+            "company": "OTTO Motors/Rockwell Automation",
             "title": "Senior Software Engineer",
             "startDate": "May 2016",
             "endDate": "October 2025",
-            "technologies": "React, Openlayers, Mapbox, Antd, JS/TS, Python, C++, Kubernetes, Grafana",
+            "technologies": "React, Openlayers, Mapbox, Antd, Storybook, JS/TS, ROS, Python, Django, C++, Kubernetes, Grafana",
             "responsibilities": "I designed and implemented mapping solutions to visualize real time telemetry for large fleets. Created advanced vector interactions to configure how vehicles navigate facilities. Implemented and maintained data synchronization, history management solutions, and various other components of OTTO's fleet management system. I worked closely with product managers and designers on scoping our releases and budgeting customer requests.",
             "achievements": "I mentored several developers and had a significant impact on the team's technical directions. I performed performance audits to allow our fleet management system to scale to handle data from hundreds of vehicles in real time."
         },
