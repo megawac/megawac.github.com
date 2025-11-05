@@ -97,7 +97,7 @@
             "endDate": "October 2025",
             "technologies": "React, Openlayers, Mapbox, Antd, Storybook, JS/TS, ROS, Python, Django, C++, Kubernetes, Grafana",
             "responsibilities": "I designed and implemented mapping solutions to visualize real time telemetry for large fleets. Created advanced vector interactions to configure how vehicles navigate facilities. Implemented and maintained data synchronization, history management solutions, and various other components of OTTO's fleet management system. I worked closely with product managers and designers on scoping our releases and budgeting customer requests.",
-            "achievements": "I mentored several developers and had a significant impact on the team's technical directions. I performed performance audits to allow our fleet management system to scale to handle data from hundreds of vehicles in real time."
+            "achievements": "I mentored several developers and had a significant impact on the team's technical directions. I performed performance audits to allow our fleet management system to scale to handle data from hundreds of vehicles in real time. I architected many of the schemas and core components used across teams in the company."
         },
         {
             "company": "Majik Systems",
