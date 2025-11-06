@@ -29,11 +29,11 @@
 
     //most of these are optional beside some of the obvious
     "name": "Graeme J. Yeates",
-    "title": "Geospatial Engineer / Robotics Visualization Specialist",
+    "title": "Full-stack & Geospatial Engineer",
     "phone": "(418) 587-3258",
     "contact": "yeatesgreame@gmail.com",
     "portfolio": "www.github.com/megawac",
-    "objective": "Geospatial engineer with 10 years' experience building real-time visualization and telemetry systems for warehouse robotics. Experienced in architecting fleet↔server synchronization, designing robotic controller interfaces, and creating operational dashboards that improve visibility and decision-making. Skilled in spatial data modeling, streaming telemetry, and performance optimization for large-scale automation deployments.",
+    "objective": "Full-stack & Geospatial engineer with 10 years' experience building real-time geospatial visualization and telemetry systems. Experienced in architecting fleet↔server synchronization, designing robotic controller interfaces, and creating operational dashboards that improve visibility and decision-making. Skilled in spatial data modeling, streaming telemetry, and performance optimization for large-scale automation deployments. Passionate open source contributor.",
     "social": [
         {
             "link": "https://github.com/megawac",
