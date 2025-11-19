@@ -21,8 +21,8 @@
      * Resource fetching and API calls
      *********************************/
     var GITHUB_API = 'https://api.github.com/';
-    var t1 = 'Z2hwX2pUQnZPbDZaOXVFM3I1SUJTVE';
-    const t2 = 'pNQ1dUY1RCbUhWSDEyR1ExVA==';
+    var t1 = 'Z2hwX3J0ajROMm9yTVR2bWtoMEhQ';
+    const t2 = 'cFYza0M1WVY0cjVVRzJ4bFpoeQ==';
     var $gitGet = function(url, data) {
         url = urlify(url, GITHUB_API);
 
