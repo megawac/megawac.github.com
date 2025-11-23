@@ -1,3 +1,12 @@
+/**
+ * Good day, fellow traveler of the code!
+ *
+ * This file and project is a simple resume generator I made in 2013 to apply for coop positions.
+ * I was very interested in OS projects and that time and I wanted to have some flair on my resume.
+ * The project itself is very simple and a bit antiquated now, but I like to use a template I designed.
+ *
+ * Enjoy looking through it and have a wonderful day.
+ */
 (function($) {
     'use strict';
     /* global resume */
