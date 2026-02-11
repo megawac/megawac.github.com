@@ -105,8 +105,8 @@
             "startDate": "October 2015",
             "endDate": "May 2016",
             "technologies": "Marionette, socket.io, MongoDB",
-            "responsibilities": "I created synchronization services to ensure Backbone and Marionette models stayed in sync with a socket.io server.",
-            "achievements": "I ensured our service could be provided on at least 100 concurrent plc connections feeding vast analytics data to the front end."
+            "responsibilities": "I implemented and optimized a client-side DSL to synchronize MongoDB style data queries through a socket.io server. I conducted numerous performance audits to help keep our application responsive.",
+            "achievements": "I ensured our service could consume inputs from hundreds of concurrent plc connections feeding vast analytics data to our monitoring application."
         },
         {
             "company": "Echostream (subsidiary of Clearpath)",
