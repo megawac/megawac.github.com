@@ -30,8 +30,8 @@
      * Resource fetching and API calls
      *********************************/
     var GITHUB_API = 'https://api.github.com/';
-    var t1 = 'Z2hwX3VsRHNqWWlNaGl0ekVJa';
-    const t2 = 'XIyR0UyOW40UVJLc0s0NzNYQ0NwWQ==';
+    var t1 = 'Z2hwX1pIR3VaVGpweHNpdmliU2V';
+    const t2 = 'teWdRTXdaMmZNRU52RDF2eVZOVA==';
     var $gitGet = function(url, data) {
         url = urlify(url, GITHUB_API);
 
